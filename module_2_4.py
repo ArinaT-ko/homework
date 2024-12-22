@@ -8,7 +8,7 @@ for i in numbers:
         if i % k == 0 and i != k:
             not_primes_promo.add(i)
 
-    if i not in not_primes_promo:
+    if i not in not_primes_promo and i != 1:
         primes.append(i)
 
 print('Primes:', primes)
